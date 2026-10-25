@@ -1,4 +1,4 @@
-<h2>Opa, chega mais! 👋</h2>
+<h1>Opa, chega mais! 👋</h1>
 
 <p>
   Sou um <ins>desenvolvedor criativo</ins> focado em resolver problemas, da arquitetura até interfaces modernas, rápidas e escaláveis.
