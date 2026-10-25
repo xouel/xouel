@@ -11,13 +11,14 @@
 
 <br/>
 
-
+<!-- ================= GRID PRINCIPAL (2 COLUNAS ALINHADAS NO CENTRO, SEM ROLAGEM LATERAL) ================= -->
 <div align="center">
   <table width="100%">
-
-   <tr>
+    <!-- LINHA 1: OS 2 CARDS DE ACHIEVEMENTS LADO A LADO -->
+    <tr>
+      <!-- CARD 1: ACHIEVEMENTS (LINGUAGENS & STACK) -->
       <td width="50%" align="center" valign="top">
-        <h3 align="left">Stack & Languages</h3>
+        <h3 align="left">Achievements</h3>
         <br/>
         <p align="center">
           <img src="./assets/badges/ts.svg" width="52" height="52" alt="TypeScript" title="TypeScript" />
@@ -40,8 +41,10 @@
           <kbd>Beta</kbd> &nbsp;<sub>Send feedback</sub>
         </p>
       </td>
-      <td width="50%" align="center" valign="top">
-        <h3 align="left">AI & Design Tools</h3>
+
+      <!-- CARD 2: 12 ACHIEVEMENTS (IAS & DESIGN) -->
+   <td width="50%" align="center" valign="top">
+        <h3 align="left">12 Achievements</h3>
         <br/>
         <p align="center">
           <img src="./assets/badges/codex.svg" width="52" height="52" alt="OpenAI Codex" title="OpenAI Codex" />
@@ -65,11 +68,15 @@
         </p>
       </td>
     </tr>
-    <tr>
+
+    <!-- CABEÇALHO DO WORKFLOW -->
+   <tr>
       <td colspan="2" align="left" valign="middle">
         <h3>Como transformo ideias em produtos &nbsp;&nbsp;<kbd>🟢 Workflow ▾</kbd></h3>
       </td>
     </tr>
+
+    <!-- WORKFLOW LINHA 1: 01 E 02 LADO A LADO -->
    <tr>
       <td width="50%" align="left" valign="top">
         <sub><code>01</code></sub><br/>
@@ -87,7 +94,7 @@
 
     <!-- WORKFLOW LINHA 2: 03 E 04 LADO A LADO -->
    <tr>
-      <td width="50%" align="left" valign="top">
+    <td width="50%" align="left" valign="top">
         <sub><code>03</code></sub><br/>
         <strong>Engenharia + IA</strong><br/>
         <sub>Código limpo aliado a agentes de IA para máxima velocidade.</sub><br/><br/>
