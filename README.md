@@ -11,8 +11,8 @@
 <br/>
 
 <p align="center">
-  <img src="./card-achievements-stack.svg" width="48%" alt="Stack & Languages" />
-  <img src="./card-achievements-ai.svg" width="48%" alt="AI & Design Tools" />
+  <img src="./card-achievements-stack.svg" width="49%" alt="Stack & Languages" />
+  <img src="./card-achievements-ai.svg" width="49%" alt="AI & Design Tools" />
 </p>
 
 <p align="center">
