@@ -5,7 +5,7 @@
 </p>
 
 <p>
-  Mais do que escrever código, uno <strong>engenharia de software</strong>, <strong>visão de produto</strong> e <strong>design</strong> com <strong>fluxos avançados de IA</strong> para transformar desafios complexos em soluções completas e bem acabadas.
+  Mais do que escrever código, consigo unir <strong>engenharia de software</strong>, <strong>visão de produto</strong> e <strong>design</strong> com <strong>fluxos avançados de IA</strong> para transformar desafios complexos em soluções completas e bem acabadas.
 </p>
 
 <br/>
