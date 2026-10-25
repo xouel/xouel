@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 250" width="280" height="250">
+      
+  <defs>
+    <filter id="badgeShadow" x="-20%" y="-20%" width="140%" height="145%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171717" />
+      <stop offset="100%" stop-color="#111111" />
+    </linearGradient>
+    <linearGradient id="innerCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e1e" />
+      <stop offset="100%" stop-color="#181818" />
+    </linearGradient>
+    <linearGradient id="glassShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="roundedSquareClip">
+      <rect x="-13" y="-13" width="26" height="26" rx="5" />
+    </clipPath>
+
+    <!-- Language Ring & Bg Gradients -->
+    <linearGradient id="ring-ts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#3178C6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <radialGradient id="bg-ts" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#172554" />
+      <stop offset="100%" stop-color="#0b132b" />
+    </radialGradient>
+
+    <linearGradient id="ring-js" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#F7DF1E" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <radialGradient id="bg-js" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3b2f06" />
+      <stop offset="100%" stop-color="#181302" />
+    </radialGradient>
+
+    <linearGradient id="ring-py" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#3776AB" />
+      <stop offset="100%" stop-color="#FFD43B" />
+    </linearGradient>
+    <radialGradient id="bg-py" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </radialGradient>
+
+    <linearGradient id="ring-react" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cffafe" />
+      <stop offset="50%" stop-color="#61DAFB" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="bg-react" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0c3647" />
+      <stop offset="100%" stop-color="#071921" />
+    </radialGradient>
+
+    <linearGradient id="ring-node" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bef264" />
+      <stop offset="50%" stop-color="#68a063" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <radialGradient id="bg-node" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#14361d" />
+      <stop offset="100%" stop-color="#09190d" />
+    </radialGradient>
+
+    <linearGradient id="ring-next" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#a1a1aa" />
+      <stop offset="100%" stop-color="#3f3f46" />
+    </linearGradient>
+    <radialGradient id="bg-next" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#09090b" />
+    </radialGradient>
+
+    <linearGradient id="ring-mongo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="50%" stop-color="#00ED64" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <radialGradient id="bg-mongo" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#063724" />
+      <stop offset="100%" stop-color="#031810" />
+    </radialGradient>
+
+    <linearGradient id="ring-pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#336791" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <radialGradient id="bg-pg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#17324a" />
+      <stop offset="100%" stop-color="#0a1622" />
+    </radialGradient>
+
+    <!-- AI & Design Ring & Bg Gradients -->
+    <linearGradient id="ring-codex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <radialGradient id="bg-codex" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090919" />
+    </radialGradient>
+
+    <linearGradient id="ring-agy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3186FF" />
+      <stop offset="35%" stop-color="#FC413D" />
+      <stop offset="70%" stop-color="#FBBC04" />
+      <stop offset="100%" stop-color="#00B95C" />
+    </linearGradient>
+    <radialGradient id="bg-agy" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </radialGradient>
+
+    <linearGradient id="ring-claude" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74" />
+      <stop offset="50%" stop-color="#D97757" />
+      <stop offset="100%" stop-color="#9a3412" />
+    </linearGradient>
+    <radialGradient id="bg-claude" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3b1d14" />
+      <stop offset="100%" stop-color="#1a0c08" />
+    </radialGradient>
+
+    <linearGradient id="ring-openai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="50%" stop-color="#10A37F" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <radialGradient id="bg-openai" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0d3b2e" />
+      <stop offset="100%" stop-color="#061a14" />
+    </radialGradient>
+
+    <linearGradient id="ring-cursor" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#a1a1aa" />
+      <stop offset="100%" stop-color="#52525b" />
+    </linearGradient>
+    <radialGradient id="bg-cursor" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#09090b" />
+    </radialGradient>
+
+    <linearGradient id="ring-ps" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#31A8FF" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="bg-ps" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#002b4d" />
+      <stop offset="100%" stop-color="#001324" />
+    </radialGradient>
+
+    <linearGradient id="ring-ai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#FF9A00" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+    <radialGradient id="bg-ai" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#421c00" />
+      <stop offset="100%" stop-color="#1f0a00" />
+    </radialGradient>
+
+    <linearGradient id="ring-figma" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F24E1E" />
+      <stop offset="35%" stop-color="#A259FF" />
+      <stop offset="70%" stop-color="#1ABCFE" />
+      <stop offset="100%" stop-color="#0ACF83" />
+    </linearGradient>
+    <radialGradient id="bg-figma" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#272038" />
+      <stop offset="100%" stop-color="#110e1a" />
+    </radialGradient>
+  </defs>
+      
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="280" height="250" rx="16" fill="url(#cardBg)" stroke="#262626" stroke-width="1" />
+    <text x="22" y="38" fill="#f0f0f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600">12 Achievements</text>
+    
+    <g transform="translate(46, 86)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-codex)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-codex)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 24 24" >
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M8.086.457a6.105 6.105 0 013.046-.415c1.333.153 2.521.72 3.564 1.7a.117.117 0 00.107.029c1.408-.346 2.762-.224 4.061.366l.063.03.154.076c1.357.703 2.33 1.77 2.918 3.198.278.679.418 1.388.421 2.126a5.655 5.655 0 01-.18 1.631.167.167 0 00.04.155 5.982 5.982 0 011.578 2.891c.385 1.901-.01 3.615-1.183 5.14l-.182.22a6.063 6.063 0 01-2.934 1.851.162.162 0 00-.108.102c-.255.736-.511 1.364-.987 1.992-1.199 1.582-2.962 2.462-4.948 2.451-1.583-.008-2.986-.587-4.21-1.736a.145.145 0 00-.14-.032c-.518.167-1.04.191-1.604.185a5.924 5.924 0 01-2.595-.622 6.058 6.058 0 01-2.146-1.781c-.203-.269-.404-.522-.551-.821a7.74 7.74 0 01-.495-1.283 6.11 6.11 0 01-.017-3.064.166.166 0 00.008-.074.115.115 0 00-.037-.064 5.958 5.958 0 01-1.38-2.202 5.196 5.196 0 01-.333-1.589 6.915 6.915 0 01.188-2.132c.45-1.484 1.309-2.648 2.577-3.493.282-.188.55-.334.802-.438.286-.12.573-.22.861-.304a.129.129 0 00.087-.087A6.016 6.016 0 015.635 2.31C6.315 1.464 7.132.846 8.086.457zm-.804 7.85a.848.848 0 00-1.473.842l1.694 2.965-1.688 2.848a.849.849 0 001.46.864l1.94-3.272a.849.849 0 00.007-.854l-1.94-3.393zm5.446 6.24a.849.849 0 000 1.695h4.848a.849.849 0 000-1.696h-4.848z" />
+</svg>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+    <g transform="translate(109, 86)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-agy)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-agy)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 24 24" >
+  <defs>
+    <clipPath id="agy-agy-official-clip">
+      <path d="M21.751 22.607c1.34 1.005 3.35.335 1.508-1.508C17.73 15.74 18.904 1 12.037 1 5.17 1 6.342 15.74.815 21.1c-2.01 2.009.167 2.511 1.507 1.506 5.192-3.517 4.857-9.714 9.715-9.714 4.857 0 4.522 6.197 9.714 9.715z" />
+    </clipPath>
+    <filter id="agy-agy-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.8" />
+    </filter>
+  </defs>
+  <g clip-path="url(#agy-agy-official-clip)">
+    <path d="M21.751 22.607c1.34 1.005 3.35.335 1.508-1.508C17.73 15.74 18.904 1 12.037 1 5.17 1 6.342 15.74.815 21.1c-2.01 2.009.167 2.511 1.507 1.506 5.192-3.517 4.857-9.714 9.715-9.714 4.857 0 4.522 6.197 9.714 9.715z" fill="#3186FF" />
+    <g filter="url(#agy-agy-blur)">
+      <path d="M-1.018-3.992c-.408 3.591 2.686 6.89 6.91 7.37 4.225.48 7.98-2.043 8.387-5.633.408-3.59-2.686-6.89-6.91-7.37-4.225-.479-7.98 2.043-8.387 5.633z" fill="#FFE432" />
+      <path d="M15.269 7.747c1.058 4.557 5.691 7.374 10.348 6.293 4.657-1.082 7.575-5.653 6.516-10.21-1.058-4.556-5.691-7.374-10.348-6.292-4.657 1.082-7.575 5.653-6.516 10.21z" fill="#FC413D" />
+      <path d="M-12.443 10.804c1.338 4.703 7.36 7.11 13.453 5.378 6.092-1.733 9.947-6.95 8.61-11.652C8.282-.173 2.26-2.58-3.833-.848-9.925.884-13.78 6.1-12.443 10.804z" fill="#00B95C" />
+      <path d="M-7.608 14.703c3.352 3.424 9.126 3.208 12.896-.483 3.77-3.69 4.108-9.459.756-12.883C2.69-2.087-3.083-1.871-6.853 1.82c-3.77 3.69-4.108 9.458-.755 12.883z" fill="#00B95C" />
+      <path d="M9.932 27.617c1.04 4.482 5.384 7.303 9.7 6.3 4.316-1.002 6.971-5.448 5.93-9.93-1.04-4.483-5.384-7.304-9.7-6.301-4.316 1.002-6.971 5.448-5.93 9.93z" fill="#3186FF" />
+      <path d="M2.572-8.185C.392-3.329 2.778 2.472 7.9 4.771c5.122 2.3 11.042.227 13.222-4.63 2.18-4.855-.205-10.656-5.327-12.955-5.122-2.3-11.042-.227-13.222 4.63z" fill="#FBBC04" />
+      <path d="M-3.267 38.686c-5.277-2.072 3.742-19.117 5.984-24.83 2.243-5.712 8.34-8.664 13.616-6.592 5.278 2.071 11.533 13.482 9.29 19.195-2.242 5.713-23.613 14.298-28.89 12.227z" fill="#3186FF" />
+      <path d="M28.71 17.471c-1.413 1.649-5.1.808-8.236-1.878-3.135-2.687-4.531-6.201-3.118-7.85 1.412-1.649 5.1-.808 8.235 1.878s4.532 6.2 3.119 7.85z" fill="#749BFF" />
+    </g>
+  </g>
+</svg>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+    <g transform="translate(171, 86)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-claude)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-claude)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 24 24" ><path d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z" fill="#D97757" fill-rule="nonzero"></path></svg>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+    <g transform="translate(234, 86)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-openai)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-openai)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 24 24" fill="#ffffff"><path d="M9.205 8.658v-2.26c0-.19.072-.333.238-.428l4.543-2.616c.619-.357 1.356-.523 2.117-.523 2.854 0 4.662 2.212 4.662 4.566 0 .167 0 .357-.024.547l-4.71-2.759a.797.797 0 00-.856 0l-5.97 3.473zm10.609 8.8V12.06c0-.333-.143-.57-.429-.737l-5.97-3.473 1.95-1.118a.433.433 0 01.476 0l4.543 2.617c1.309.76 2.189 2.378 2.189 3.948 0 1.808-1.07 3.473-2.76 4.163zM7.802 12.703l-1.95-1.142c-.167-.095-.239-.238-.239-.428V5.899c0-2.545 1.95-4.472 4.591-4.472 1 0 1.927.333 2.712.928L8.23 5.067c-.285.166-.428.404-.428.737v6.898zM12 15.128l-2.795-1.57v-3.33L12 8.658l2.795 1.57v3.33L12 15.128zm1.796 7.23c-1 0-1.927-.332-2.712-.927l4.686-2.712c.285-.166.428-.404.428-.737v-6.898l1.974 1.142c.167.095.238.238.238.428v5.233c0 2.545-1.974 4.472-4.614 4.472zm-5.637-5.303l-4.544-2.617c-1.308-.761-2.188-2.378-2.188-3.948A4.482 4.482 0 014.21 6.327v5.423c0 .333.143.571.428.738l5.947 3.449-1.95 1.118a.432.432 0 01-.476 0zm-.262 3.9c-2.688 0-4.662-2.021-4.662-4.519 0-.19.024-.38.047-.57l4.686 2.71c.286.167.571.167.856 0l5.97-3.448v2.26c0 .19-.07.333-.237.428l-4.543 2.616c-.619.357-1.356.523-2.117.523zm5.899 2.83a5.947 5.947 0 005.827-4.756C22.287 18.339 24 15.84 24 13.296c0-1.665-.713-3.282-1.998-4.448.119-.5.19-.999.19-1.498 0-3.401-2.759-5.947-5.946-5.947-.642 0-1.26.095-1.88.31A5.962 5.962 0 0010.205 0a5.947 5.947 0 00-5.827 4.757C1.713 5.447 0 7.945 0 10.49c0 1.666.713 3.283 1.998 4.448-.119.5-.19 1-.19 1.499 0 3.401 2.759 5.946 5.946 5.946.642 0 1.26-.095 1.88-.309a5.96 5.96 0 004.162 1.713z"></path></svg>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+    <g transform="translate(46, 150)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-cursor)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-cursor)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 24 24" fill="#ffffff"><path d="M22.106 5.68L12.5.135a.998.998 0 00-.998 0L1.893 5.68a.84.84 0 00-.419.726v11.186c0 .3.16.577.42.727l9.607 5.547a.999.999 0 00.998 0l9.608-5.547a.84.84 0 00.42-.727V6.407a.84.84 0 00-.42-.726zm-.603 1.176L12.228 22.92c-.063.108-.228.064-.228-.061V12.34a.59.59 0 00-.295-.51l-9.11-5.26c-.107-.062-.063-.228.062-.228h18.55c.264 0 .428.286.296.514z"></path></svg>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+    <g transform="translate(109, 150)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-ps)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-ps)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 128 128" ><path fill="#001e36" d="M22.667 1.6h82.666C117.867 1.6 128 11.733 128 24.267v79.466c0 12.534-10.133 22.667-22.667 22.667H22.667C10.133 126.4 0 116.267 0 103.733V24.267C0 11.733 10.133 1.6 22.667 1.6Z"/><path fill="#31a8ff" d="M45.867 33.333c-1.6 0-3.2 0-4.853.054-1.654.053-3.201.053-4.641.107-1.44.053-2.773.053-4.053.106-1.227.053-2.08.053-2.987.053-.373 0-.533.213-.533.587v54.88c0 .48.213.694.64.694h10.347c.373-.054.64-.374.586-.747v-17.12c1.013 0 1.76 0 2.294.053.533.053 1.386.053 2.666.053 4.374 0 8.374-.48 12-1.813 3.467-1.28 6.454-3.52 8.587-6.507 2.133-2.986 3.2-6.773 3.2-11.36 0-2.4-.426-4.693-1.226-6.933A16.98 16.98 0 0 0 64 39.36a19.049 19.049 0 0 0-7.147-4.374c-2.987-1.12-6.613-1.653-10.986-1.653Zm1.19 10.505c1.9.036 3.75.368 5.476 1.068 1.547.587 2.827 1.654 3.734 3.04a8.779 8.779 0 0 1 1.227 4.748c0 2.346-.534 4.16-1.654 5.493-1.174 1.333-2.667 2.347-4.373 2.827-1.974.64-4.054.959-6.134.959h-2.827c-.64 0-1.332-.053-2.079-.106v-17.92c.373-.054 1.12-.107 2.187-.053 1.013-.054 2.239-.054 3.626-.054.273-.007.546-.008.817-.002zm44.73 2.723c-3.787 0-6.934.586-9.44 1.866-2.293 1.067-4.267 2.773-5.6 4.906-1.173 1.974-1.814 4.16-1.814 6.454a11.447 11.447 0 0 0 1.227 5.44 13.809 13.809 0 0 0 4.054 4.533 32.629 32.629 0 0 0 7.573 3.84c2.613 1.013 4.373 1.813 5.227 2.506.853.694 1.28 1.387 1.28 2.134 0 .96-.587 1.867-1.44 2.24-.96.48-2.4.747-4.427.747-2.133 0-4.267-.267-6.294-.8a22.834 22.834 0 0 1-6.613-2.613c-.16-.107-.32-.16-.48-.053-.16.106-.213.319-.213.479v9.28c-.053.427.213.8.587 1.013a21.49 21.49 0 0 0 5.44 1.707c2.4.48 4.799.693 7.252.693 3.84 0 7.041-.586 9.654-1.706 2.4-.96 4.48-2.613 5.973-4.747a12.41 12.41 0 0 0 2.08-7.093 11.512 11.512 0 0 0-1.226-5.493c-1.014-1.814-2.454-3.307-4.214-4.427a38.625 38.625 0 0 0-8.213-3.894 48.784 48.784 0 0 1-3.787-1.76c-.693-.373-1.333-.853-1.813-1.44-.32-.427-.533-.906-.533-1.386 0-.48.16-1.013.426-1.44.374-.533.96-.907 1.653-1.067 1.014-.266 2.134-.427 3.2-.374 2.027 0 4 .267 5.974.694 1.814.373 3.52.96 5.12 1.814.213.106.48.106.96 0a.656.656 0 0 0 .267-.534v-8.693c0-.214-.054-.427-.107-.64-.107-.213-.32-.427-.533-.48A18.762 18.762 0 0 0 98.4 47.04a45.98 45.98 0 0 0-6.613-.48z"/></svg>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+    <g transform="translate(171, 150)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-ai)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-ai)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 128 128" ><path fill="#300" d="M22.7 1.6h82.7c12.5 0 22.7 10.1 22.7 22.7v79.5c0 12.5-10.1 22.7-22.7 22.7H22.7C10.1 126.4 0 116.3 0 103.7V24.3C0 11.7 10.1 1.6 22.7 1.6"/><path fill="#ff9a00" d="M61.9 76.3H42l-4 12.5c-.1.5-.5.8-1 .7H27c-.6 0-.7-.3-.6-1l17.2-49.4c.2-.5.3-1.1.5-1.8.2-1.1.3-2.3.3-3.5-.1-.3.2-.5.4-.6h13.8c.4 0 .6.2.7.4l19.5 54.9c.2.6 0 .9-.5.9H67.1c-.4.1-.7-.2-.9-.6zM45.1 65.4h13.5c-.3-1.1-.7-2.5-1.2-3.8-.5-1.4-1-3-1.4-4.6-.5-1.7-1-3.3-1.5-4.9-.5-1.7-1-3.2-1.4-4.7-.4-1.5-.8-2.9-1.2-4.2h-.1c-.5 2.3-1.1 4.6-1.8 6.9-.8 2.6-1.6 5.2-2.5 7.9-.8 2.7-1.6 5.2-2.4 7.4m45.6-22.7c-1.8.1-3.5-.6-4.7-1.9-1.2-1.3-1.9-3.1-1.8-4.9-.1-1.8.6-3.5 1.9-4.7 1.3-1.2 3-1.9 4.7-1.9 2.1 0 3.7.6 4.9 1.9 1.2 1.3 1.8 3 1.8 4.7.1 1.8-.6 3.6-1.9 4.9-1.3 1.3-3.1 2-4.9 1.9m-6 46.3V47.9c0-.5.2-.7.7-.7H96c.5 0 .7.3.7.7V89c0 .6-.2.9-.7.9H85.5c-.5-.1-.8-.4-.8-.9"/></svg>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+    <g transform="translate(234, 150)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-figma)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-figma)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 128 128" ><path fill="#0acf83" d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0"/><path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"/><path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"/><path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"/><path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"/></svg>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+    <!-- Beta pill & footer -->
+    <g transform="translate(22, 210)">
+      <rect x="0" y="0" width="34" height="17" rx="8.5" fill="none" stroke="#52525b" stroke-width="1.1" />
+      <text x="17" y="11.8" text-anchor="middle" fill="#d4d4d8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600">Beta</text>
+      <text x="43" y="12" fill="#71717a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5">Send feedback</text>
+    </g>
+  </g>
+    </svg>

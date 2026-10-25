@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" width="54" height="54">
+    
+  <defs>
+    <filter id="badgeShadow" x="-20%" y="-20%" width="140%" height="145%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171717" />
+      <stop offset="100%" stop-color="#111111" />
+    </linearGradient>
+    <linearGradient id="innerCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e1e" />
+      <stop offset="100%" stop-color="#181818" />
+    </linearGradient>
+    <linearGradient id="glassShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="roundedSquareClip">
+      <rect x="-13" y="-13" width="26" height="26" rx="5" />
+    </clipPath>
+
+    <!-- Language Ring & Bg Gradients -->
+    <linearGradient id="ring-ts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#3178C6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <radialGradient id="bg-ts" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#172554" />
+      <stop offset="100%" stop-color="#0b132b" />
+    </radialGradient>
+
+    <linearGradient id="ring-js" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#F7DF1E" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <radialGradient id="bg-js" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3b2f06" />
+      <stop offset="100%" stop-color="#181302" />
+    </radialGradient>
+
+    <linearGradient id="ring-py" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#3776AB" />
+      <stop offset="100%" stop-color="#FFD43B" />
+    </linearGradient>
+    <radialGradient id="bg-py" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </radialGradient>
+
+    <linearGradient id="ring-react" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cffafe" />
+      <stop offset="50%" stop-color="#61DAFB" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="bg-react" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0c3647" />
+      <stop offset="100%" stop-color="#071921" />
+    </radialGradient>
+
+    <linearGradient id="ring-node" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bef264" />
+      <stop offset="50%" stop-color="#68a063" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <radialGradient id="bg-node" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#14361d" />
+      <stop offset="100%" stop-color="#09190d" />
+    </radialGradient>
+
+    <linearGradient id="ring-next" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#a1a1aa" />
+      <stop offset="100%" stop-color="#3f3f46" />
+    </linearGradient>
+    <radialGradient id="bg-next" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#09090b" />
+    </radialGradient>
+
+    <linearGradient id="ring-mongo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="50%" stop-color="#00ED64" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <radialGradient id="bg-mongo" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#063724" />
+      <stop offset="100%" stop-color="#031810" />
+    </radialGradient>
+
+    <linearGradient id="ring-pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#336791" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <radialGradient id="bg-pg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#17324a" />
+      <stop offset="100%" stop-color="#0a1622" />
+    </radialGradient>
+
+    <!-- AI & Design Ring & Bg Gradients -->
+    <linearGradient id="ring-codex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <radialGradient id="bg-codex" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090919" />
+    </radialGradient>
+
+    <linearGradient id="ring-agy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3186FF" />
+      <stop offset="35%" stop-color="#FC413D" />
+      <stop offset="70%" stop-color="#FBBC04" />
+      <stop offset="100%" stop-color="#00B95C" />
+    </linearGradient>
+    <radialGradient id="bg-agy" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </radialGradient>
+
+    <linearGradient id="ring-claude" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74" />
+      <stop offset="50%" stop-color="#D97757" />
+      <stop offset="100%" stop-color="#9a3412" />
+    </linearGradient>
+    <radialGradient id="bg-claude" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3b1d14" />
+      <stop offset="100%" stop-color="#1a0c08" />
+    </radialGradient>
+
+    <linearGradient id="ring-openai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="50%" stop-color="#10A37F" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <radialGradient id="bg-openai" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0d3b2e" />
+      <stop offset="100%" stop-color="#061a14" />
+    </radialGradient>
+
+    <linearGradient id="ring-cursor" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#a1a1aa" />
+      <stop offset="100%" stop-color="#52525b" />
+    </linearGradient>
+    <radialGradient id="bg-cursor" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#09090b" />
+    </radialGradient>
+
+    <linearGradient id="ring-ps" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#31A8FF" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="bg-ps" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#002b4d" />
+      <stop offset="100%" stop-color="#001324" />
+    </radialGradient>
+
+    <linearGradient id="ring-ai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#FF9A00" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+    <radialGradient id="bg-ai" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#421c00" />
+      <stop offset="100%" stop-color="#1f0a00" />
+    </radialGradient>
+
+    <linearGradient id="ring-figma" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F24E1E" />
+      <stop offset="35%" stop-color="#A259FF" />
+      <stop offset="70%" stop-color="#1ABCFE" />
+      <stop offset="100%" stop-color="#0ACF83" />
+    </linearGradient>
+    <radialGradient id="bg-figma" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#272038" />
+      <stop offset="100%" stop-color="#110e1a" />
+    </radialGradient>
+  </defs>
+    
+    <g transform="translate(27, 27)">
+      <!-- Outer Medal Circle with Shadow -->
+      <circle cx="0" cy="0" r="24" fill="url(#ring-ts)" filter="url(#badgeShadow)" />
+      <!-- Inner Dark Enamel Circle -->
+      <circle cx="0" cy="0" r="21" fill="url(#bg-ts)" stroke="#09090b" stroke-width="0.8" />
+      <!-- Subtle Inner Rim Highlight -->
+      <circle cx="0" cy="0" r="20.2" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="0.7" />
+      <!-- Official Vector Emblem -->
+      <g clip-path="url(#roundedSquareClip)"><svg x="-13.00" y="-13.00" width="26" height="26" viewBox="0 0 128 128" ><path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"/><path data-name="original" fill="#007acc" d="M1.5 63.91v62.5h125v-125H1.5zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 00-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 00.54 2.34c.83 1.73 2.38 2.76 7.24 4.86 8.95 3.85 12.78 6.39 15.16 10 2.66 4 3.25 10.46 1.45 15.24-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 01-9.52-.1 23 23 0 01-12.72-6.63c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 011.15-.73L82 101l3.59-2.08.75 1.11a16.78 16.78 0 004.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 00.69-6.92c-1-1.39-3-2.56-8.59-5-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 01-3.43-6.25 25 25 0 01-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 019.49.26zm-29.34 5.24v5.12H56.66v46.23H45.15V69.26H28.88v-5a49.19 49.19 0 01.12-5.17C29.08 59 39 59 51 59h21.83z"/></svg></g>
+      <!-- Top Glass Specular Shine -->
+      <ellipse cx="0" cy="-9.5" rx="13.5" ry="7" fill="url(#glassShine)" pointer-events="none" />
+    </g>
+  </svg>

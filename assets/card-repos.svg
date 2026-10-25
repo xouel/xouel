@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" width="620" height="250">
+      
+  <defs>
+    <filter id="badgeShadow" x="-20%" y="-20%" width="140%" height="145%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171717" />
+      <stop offset="100%" stop-color="#111111" />
+    </linearGradient>
+    <linearGradient id="innerCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e1e" />
+      <stop offset="100%" stop-color="#181818" />
+    </linearGradient>
+    <linearGradient id="glassShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="roundedSquareClip">
+      <rect x="-13" y="-13" width="26" height="26" rx="5" />
+    </clipPath>
+
+    <!-- Language Ring & Bg Gradients -->
+    <linearGradient id="ring-ts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#3178C6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <radialGradient id="bg-ts" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#172554" />
+      <stop offset="100%" stop-color="#0b132b" />
+    </radialGradient>
+
+    <linearGradient id="ring-js" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#F7DF1E" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <radialGradient id="bg-js" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3b2f06" />
+      <stop offset="100%" stop-color="#181302" />
+    </radialGradient>
+
+    <linearGradient id="ring-py" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#3776AB" />
+      <stop offset="100%" stop-color="#FFD43B" />
+    </linearGradient>
+    <radialGradient id="bg-py" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </radialGradient>
+
+    <linearGradient id="ring-react" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cffafe" />
+      <stop offset="50%" stop-color="#61DAFB" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="bg-react" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0c3647" />
+      <stop offset="100%" stop-color="#071921" />
+    </radialGradient>
+
+    <linearGradient id="ring-node" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bef264" />
+      <stop offset="50%" stop-color="#68a063" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <radialGradient id="bg-node" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#14361d" />
+      <stop offset="100%" stop-color="#09190d" />
+    </radialGradient>
+
+    <linearGradient id="ring-next" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#a1a1aa" />
+      <stop offset="100%" stop-color="#3f3f46" />
+    </linearGradient>
+    <radialGradient id="bg-next" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#09090b" />
+    </radialGradient>
+
+    <linearGradient id="ring-mongo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="50%" stop-color="#00ED64" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <radialGradient id="bg-mongo" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#063724" />
+      <stop offset="100%" stop-color="#031810" />
+    </radialGradient>
+
+    <linearGradient id="ring-pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#336791" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <radialGradient id="bg-pg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#17324a" />
+      <stop offset="100%" stop-color="#0a1622" />
+    </radialGradient>
+
+    <!-- AI & Design Ring & Bg Gradients -->
+    <linearGradient id="ring-codex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <radialGradient id="bg-codex" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090919" />
+    </radialGradient>
+
+    <linearGradient id="ring-agy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3186FF" />
+      <stop offset="35%" stop-color="#FC413D" />
+      <stop offset="70%" stop-color="#FBBC04" />
+      <stop offset="100%" stop-color="#00B95C" />
+    </linearGradient>
+    <radialGradient id="bg-agy" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </radialGradient>
+
+    <linearGradient id="ring-claude" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74" />
+      <stop offset="50%" stop-color="#D97757" />
+      <stop offset="100%" stop-color="#9a3412" />
+    </linearGradient>
+    <radialGradient id="bg-claude" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3b1d14" />
+      <stop offset="100%" stop-color="#1a0c08" />
+    </radialGradient>
+
+    <linearGradient id="ring-openai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="50%" stop-color="#10A37F" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <radialGradient id="bg-openai" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0d3b2e" />
+      <stop offset="100%" stop-color="#061a14" />
+    </radialGradient>
+
+    <linearGradient id="ring-cursor" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#a1a1aa" />
+      <stop offset="100%" stop-color="#52525b" />
+    </linearGradient>
+    <radialGradient id="bg-cursor" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#09090b" />
+    </radialGradient>
+
+    <linearGradient id="ring-ps" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#31A8FF" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="bg-ps" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#002b4d" />
+      <stop offset="100%" stop-color="#001324" />
+    </radialGradient>
+
+    <linearGradient id="ring-ai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#FF9A00" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+    <radialGradient id="bg-ai" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#421c00" />
+      <stop offset="100%" stop-color="#1f0a00" />
+    </radialGradient>
+
+    <linearGradient id="ring-figma" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F24E1E" />
+      <stop offset="35%" stop-color="#A259FF" />
+      <stop offset="70%" stop-color="#1ABCFE" />
+      <stop offset="100%" stop-color="#0ACF83" />
+    </linearGradient>
+    <radialGradient id="bg-figma" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#272038" />
+      <stop offset="100%" stop-color="#110e1a" />
+    </radialGradient>
+  </defs>
+      
+  <g transform="translate(0, 0)">
+    <rect x="0" y="0" width="620" height="250" rx="16" fill="url(#cardBg)" stroke="#262626" stroke-width="1" />
+    <text x="28" y="42" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">Popular repositories</text>
+    <path d="M224,35 L227.5,39 L231,35" fill="none" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" />
+
+    
+    <g transform="translate(28, 64)">
+      <rect x="0" y="0" width="270" height="162" rx="12" fill="url(#innerCardBg)" stroke="#2a2a2a" stroke-width="1" />
+      <g transform="translate(18, 22)" fill="none" stroke="#8b949e" stroke-width="1.4">
+        <path d="M2,2.5 A2,2 0 0,1 4,0.5 L12,0.5 L12,13.5 L4,13.5 A2,2 0 0,0 2,15.5 Z" />
+        <path d="M2,13.5 L12,13.5" />
+      </g>
+      <text x="36" y="34" fill="#f0f0f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Fullstack-AI-Platform</text>
+      <rect x="208" y="21" width="44" height="18" rx="9" fill="none" stroke="#d29922" stroke-width="1" stroke-opacity="0.65" />
+      <text x="230" y="33" text-anchor="middle" fill="#d29922" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500">Public</text>
+
+      <text x="18" y="62" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.2">
+        <tspan x="18" dy="0">Arquitetura full-stack com TypeScript, R</tspan>
+        <tspan x="18" dy="18">eact, Python e PostgreSQL focada em perfor</tspan>
+      </text>
+
+      <g transform="translate(18, 132)" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12">
+        <path d="M6,0 L7.8,3.6 L11.8,4.2 L8.9,7 L9.6,11 L6,9.1 L2.4,11 L3.1,7 L0.2,4.2 L4.2,3.6 Z" fill="none" stroke="#8b949e" stroke-width="1.2" transform="translate(0, -10)" />
+        <text x="16" y="0">455</text>
+
+        <path d="M6,0 L7.8,3.6 L11.8,4.2 L8.9,7 L9.6,11 L6,9.1 L2.4,11 L3.1,7 L0.2,4.2 L4.2,3.6 Z" fill="none" stroke="#8b949e" stroke-width="1.2" transform="translate(56, -10)" />
+        <text x="72" y="0">127</text>
+      </g>
+    </g>
+  
+    
+    <g transform="translate(322, 64)">
+      <rect x="0" y="0" width="270" height="162" rx="12" fill="url(#innerCardBg)" stroke="#2a2a2a" stroke-width="1" />
+      <g transform="translate(18, 22)" fill="none" stroke="#8b949e" stroke-width="1.4">
+        <path d="M2,2.5 A2,2 0 0,1 4,0.5 L12,0.5 L12,13.5 L4,13.5 A2,2 0 0,0 2,15.5 Z" />
+        <path d="M2,13.5 L12,13.5" />
+      </g>
+      <text x="36" y="34" fill="#f0f0f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">NextGen-Design-System</text>
+      <rect x="208" y="21" width="44" height="18" rx="9" fill="none" stroke="#8b949e" stroke-width="1" stroke-opacity="0.65" />
+      <text x="230" y="33" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500">Public</text>
+
+      <text x="18" y="62" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.2">
+        <tspan x="18" dy="0">Sistema de design, componentes interativ</tspan>
+        <tspan x="18" dy="18">os e automação criativa integrando Figma, </tspan>
+      </text>
+
+      <g transform="translate(18, 132)" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12">
+        <path d="M6,0 L7.8,3.6 L11.8,4.2 L8.9,7 L9.6,11 L6,9.1 L2.4,11 L3.1,7 L0.2,4.2 L4.2,3.6 Z" fill="none" stroke="#8b949e" stroke-width="1.2" transform="translate(0, -10)" />
+        <text x="16" y="0">293</text>
+
+        <path d="M6,0 L7.8,3.6 L11.8,4.2 L8.9,7 L9.6,11 L6,9.1 L2.4,11 L3.1,7 L0.2,4.2 L4.2,3.6 Z" fill="none" stroke="#8b949e" stroke-width="1.2" transform="translate(56, -10)" />
+        <text x="72" y="0">71</text>
+      </g>
+    </g>
+  
+  </g>
+    </svg>
