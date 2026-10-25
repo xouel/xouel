@@ -1,13 +1,6 @@
 <table>
   <!-- ================= LINHA 1: FOTO + BIO (README.md) ================= -->
   <tr>
-    <td width="32%" align="center" valign="middle">
-      <br/>
-      <img src="https://github.com/xouel.png" width="210" alt="xouel" />
-      <br/><br/>
-      <sub><code>&lt;xouel /&gt;</code></sub>
-      <br/>
-    </td>
     <td width="68%" colspan="2" valign="top">
       <sub><code>xouel / README.md</code></sub>
       <h2>Opa, chega mais! 👋</h2>
