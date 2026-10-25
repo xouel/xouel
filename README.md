@@ -1,8 +1,8 @@
 <h1>Opa, chega mais! 👋</h1>
 
-<p 
+<p>
   Graphic & Brand Designer | Prototyping & Front-end Dev | Estudante de ADS e de Gestão Pública
-  </p>
+ </p>
 <p>
   Sou um <strong><ins>desenvolvedor criativo</ins></strong> focado em resolver problemas, da arquitetura até interfaces modernas, rápidas e escaláveis.
 </p>
