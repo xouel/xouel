@@ -1,4 +1,4 @@
-<h1>Opa, chega mais! 👋</h1>
+<h1>Opa, chega mais!</h1>
 
 <p>
   Graphic & Brand Designer | Prototyping & Front-end Dev → Full Stack | Estudante de ADS e de Gestão Pública
